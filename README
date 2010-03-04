@@ -1,0 +1,17 @@
+ValidatesSiret
+==============
+
+Validate French SIRET numbers (enterprises identifier), as described here:
+http://fr.wikipedia.org/wiki/Système_d’identification_du_répertoire_des_établissements#Calcul_et_validit.C3.A9_d.27un_nu
+m.C3.A9ro_SIRET
+
+
+
+Example
+=======
+
+     class Professional
+        validates_siret :siret
+
+
+Copyright (c) 2010 Novelys Team, released under the MIT license
